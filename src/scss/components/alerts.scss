@@ -1,0 +1,19 @@
+.alert-container {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 1020;
+    width: 350px;
+
+    .alert {
+        .close {
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: $mobile) {
+    .alert-container {
+        width: 240px;
+    }
+}

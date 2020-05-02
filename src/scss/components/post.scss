@@ -1,0 +1,14 @@
+.post-actions-container {
+  display: flex;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+
+  .post-action {
+    color: #20a8d8;
+    padding-right: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,43 @@
+.messages-wrapper {
+    .message-list {
+        .message {
+            display: flex;
+            border: 0;
+            &.me {
+                text-align: right;
+                flex-direction: row-reverse;
+                .img-avatar {
+                    margin-right: 0;
+                    margin-left: 10px;
+                }
+            }
+            .img-avatar {
+                width: 35px;
+                height: 35px;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-right: 10px;
+            }
+            .message-data {
+                margin-top: auto;
+                margin-bottom: auto;
+                .sender-name {
+                    font-weight: 600;
+                    font-size: 12px;
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                    max-width: 100%;
+                    word-break: break-word;
+                }
+                .message-content {
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                    max-width: 100%;
+                    word-break: break-word;
+                }
+            }
+        }
+    }
+}

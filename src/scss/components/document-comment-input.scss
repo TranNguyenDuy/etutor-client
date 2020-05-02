@@ -1,0 +1,17 @@
+.document-comment-input {
+  margin-top: 10px;
+  .send-button-container {
+    width: 100px;
+    text-align: center;
+    .send-button {
+      line-height: 35px;
+      color: $primary;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        color: #167495;
+      }
+    }
+  }
+}

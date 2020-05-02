@@ -1,0 +1,16 @@
+.aside-messages-panel {
+    .message {
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        &:hover, &.selected {
+            background: rgba(0, 0, 0, 0.125);
+        }
+    }
+
+    hr {
+        margin: 0;
+    }
+}

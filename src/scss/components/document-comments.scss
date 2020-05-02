@@ -1,0 +1,10 @@
+.document-comments {
+  .comment {
+    &:not(:first-child) {
+      margin-top: 10px;
+    }
+    padding: 10px;
+    border: 1px solid #c8ced3;
+    border-radius: 5px;
+  }
+}

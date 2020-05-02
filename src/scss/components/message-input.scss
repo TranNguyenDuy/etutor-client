@@ -1,0 +1,20 @@
+.message-input-wrapper {
+    margin: 10px;
+    .message-input {
+        height: 35px;
+    }
+    .send-button-container {
+        width: 55px;
+        text-align: center;
+        .send-button {
+            line-height: 35px;
+            color: $primary;
+            cursor: pointer;
+
+            &:hover,
+            &:focus {
+                color: #167495;
+            }
+        }
+    }
+}

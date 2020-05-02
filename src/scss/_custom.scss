@@ -1,0 +1,31 @@
+//components
+@import "./components/alerts.scss";
+@import "./components/message-input.scss";
+@import "./components/aside-messages-panel.scss";
+@import "./components/message-list.scss";
+@import "./components/document-comment-input.scss";
+@import "./components/document-comments.scss";
+@import "./components//attachment-preview.scss";
+@import "./components/post.scss";
+
+// pages
+@import "./pages/conversation.scss";
+// Here you can add other styles
+.card-header {
+  text-transform: capitalize;
+}
+label[required]::after {
+  content: " *";
+  color: red;
+}
+.clickable {
+  cursor: pointer;
+}
+
+@media (min-width: $mobile) {
+  aside {
+    .setting-nav-item {
+      display: none;
+    }
+  }
+}
